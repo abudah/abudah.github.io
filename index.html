@@ -1,2 +1,81 @@
-# abudah.github.io
-/Sites/abudah.github.io
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css" />
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css" />
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Skills</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact me </a></li>
+        </ul>
+    </div>
+    <section id="home">
+        <div class="main">
+            <h1 class="heading">
+                I am <br /> Fekede Alemayehu
+            </h1>
+            <button class="btn">About me</button>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="heading">ABOUT ME</h1>
+        <div id="pic">
+            <img src="image/abudahh.jpg" alt="" />
+            <div id="intro">
+                <h2>ABUDAH</h2>
+                <p>
+                    My name is Fekede Alemayehu. I was born and grown up in a town called Kiremu. Now I am attending my Computer Science and Engineering education in Adama Science and Technology University, From my Early childhood I love learning about new things, Mostly
+                    I am fond of learning about Technologies and different innovations. So as I have this inspirations it encourage me to learn more about programming languages, Webs , Security, AI and machine learning. As my paths have interesting inner
+                    feeling for me I always love them very much.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <h1 class="heading">SKILLS</h1>
+        <div class="row">
+            <div class="box">
+                <img src="image/pic11.png" alt="" />
+                <h1 class="heading">
+                    Desktop App <br /> Development
+                </h1>
+                <p></p>
+            </div>
+            <div class="box">
+                <img src="image/pic2.jpg" alt="" />
+                <h1 class="heading">Web Development</h1>
+                <p></p>
+            </div>
+            <div class="box">
+                <img src="image/pic2.png" alt="" />
+                <h1 class="heading">Database Design</h1>
+                <p></p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="heading">CONTACT ME</h1>
+        <form action="" class="form">
+            <label for="name">Full Name: </label>
+            <input type="text" class="input" placeholder="Enter Your Name" name="name" />
+            <label for="name">Email: </label>
+            <input type="Email" class="input" placeholder="Enter Your Email" name="email" />
+            <label for="name">Message: </label>
+            <textarea name="message" id="message" rows="10" cols="30" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send" />
+        </form>
+    </section>
+</body>
+
+</html>
